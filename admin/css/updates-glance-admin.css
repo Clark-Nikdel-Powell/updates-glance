@@ -1,0 +1,12 @@
+#dashboard_right_now li a.updates-glance-plugins-updates:before,
+#dashboard_right_now li a.updates-glance-themes-updates:before {
+    display: none;
+}
+
+#dashboard_right_now li a.updates-glance-plugins-count:before {
+    content: "\f106";
+}
+
+#dashboard_right_now li a.updates-glance-themes-count:before {
+    content: "\f309";
+}
